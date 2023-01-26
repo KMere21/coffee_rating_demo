@@ -29,7 +29,7 @@ st.markdown("**Created by:** Kate Meredith | **Date:** January 2023")
 # insert subheader
 st.subheader("Project Background")
 
-# insert text
+# space to provide text background
 st.markdown("Online ratings and reviews are a valuable tool for helping consumers make decisions. For businesses, this means ratings and reviews matter a lot. This project examined coffee reviews and ratings provided by a small team of expert reviewers at Coffee Review. Specifically, this project asks **How might we better understand the relationship between review and rating, so that coffee roasters can achieve top scores and distinguish themselves in a highly competitive market?**")
 
 st.markdown("As of 2021, the global coffee market was valued at over 100 billion USD and growing (Businesswire). Increased concern about the social and environmental impact of products created a competitive market for high quality, responsibly sourced coffee (Research and Markets, 2022). This project primarily focuses on this subset of the industry, as the data is scraped from [CoffeeReview](https://www.coffeereview.com/). While reviews span 1997 to today, the site’s focus in the last 10 years has shifted to high quality coffee (Coffee Review, 2015).")
@@ -44,6 +44,7 @@ st.markdown("This project included creating a text-based model to predict a coff
 
 st.markdown("**Give it a try!** Pick a review from [CoffeeReview](https://www.coffeereview.com/review/). Click into the review to see the *Blind Assessment* text. Copy and paste it into the box below. **Any reviews posted November 2022 or later will be new to the model**. You can see how well it does by comparing the prediction to the actual rating.")
 
+st.markdown("**Enter the review in the box below**")
 
 # Load the model using joblib
 model = joblib.load('./public_rating_pipeline.pkl')
@@ -77,11 +78,12 @@ st.image(image2)
 
 st.markdown(" ")
 
+# for showing authorship and how to get in touch
 st.subheader("Connect with the Creator")
 
 st.markdown("This project was created by Kate Meredith. See more of my work on GitHub, check out my portfolio, or get in touch through LinkedIn.")
 
 st.markdown("[Github](https://github.com/KMere21)")
-st.markdown("[Portfolio](https://github.com/KMere21)")
+st.markdown("[Portfolio](https://kmere21.github.io/)")
 st.markdown("[LinkedIn](https://www.linkedin.com/in/kate-m-meredith/)")
 
