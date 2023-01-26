@@ -34,11 +34,13 @@ st.markdown("As of 2021, the global coffee market was valued at over 100 billion
 
 st.markdown("At Coffee Review, the evaluation (cupping) is conducted by a small, trained team on unidentified coffee. The reviewer scores five subcomponents (aroma, acidity, body, flavor, and aftertaste) from 1-10. Evaluative and descriptive narrative is also provided. A final overall rating from 50-100 is given (in both cases, higher scores are better). Top scores are in the 90s, with anything above 94 exceptional. More details on the reviewing process are available [here](https://www.coffeereview.com/how-coffee-review-works/).")
 
+st.markdown(" ")
+
 st.subheader("Try the Text-Based Model!")
 
-st.markdown("This project included creating a text-based model to predict a coffee’s rating. **The model was trained using only the text from the *Blind Assessment* portion of reviews posted before November 2022.**") 
+st.markdown("This project included creating a text-based model to predict a coffee’s rating. The model was trained using only the text from the *Blind Assessment* portion of reviews posted before November 2022.") 
 
-st.markdown("Give it a try! Pick a review from [CoffeeReview](https://www.coffeereview.com/review/). Click into the review to see the *Blind Assessment* text. Copy and paste it into the box below. **Any reviews posted November 2022 or later will be new to the model**. You can see how well it does by comparing the prediction to the actual rating.")
+st.markdown("**Give it a try!** Pick a review from [CoffeeReview](https://www.coffeereview.com/review/). Click into the review to see the *Blind Assessment* text. Copy and paste it into the box below. **Any reviews posted November 2022 or later will be new to the model**. You can see how well it does by comparing the prediction to the actual rating.")
 
 
 # Load the model using joblib
@@ -71,11 +73,13 @@ st.image(image1)
 image2 = ('ReviewStep2.png')
 st.image(image2)
 
-st.markdown("")
+st.markdown(" ")
 
-st.subheader("Contact Information")
+st.subheader("Connect with the Creator")
+
+st.markdown("This project was created by Kate Meredith. See more of my work on GitHub, check out my portfolio, or get in touch through LinkedIn.")
 
 st.markdown("[Github](https://github.com/KMere21)")
 st.markdown("[Portfolio](https://github.com/KMere21)")
-st.markdown("[LinkedIn(https://www.linkedin.com/in/kate-m-meredith/)")
+st.markdown("[LinkedIn](https://www.linkedin.com/in/kate-m-meredith/)")
 
