@@ -1,1 +1,1 @@
-web: sh setup.sh && streamline run <public_coffee_streamlit.py>
+web: sh setup.sh && streamlit run public_coffee_streamlit.py
