@@ -24,6 +24,9 @@ st.image(image0)
 # insert page title
 st.title("Predict Coffee Ratings from Reviews")
 
+st.markdown("**Created by:** Kate Meredith")
+st.markdown("Launced January 2023")
+
 # insert subheader
 st.subheader("Project Background")
 
