@@ -29,7 +29,7 @@ st.title("Predicting Coffee Ratings with Review Data")
 st.subheader("Let's test some  new reviews!")
 
 # Load the model using joblib
-model = joblib.load('/Users/katemondal/Documents/BrainStation/Public_Streamlit/public_rating_pipeline.pkl')
+model = joblib.load('./public_rating_pipeline.pkl')
 
 # Set up input field
 review = st.text_area('', '')
