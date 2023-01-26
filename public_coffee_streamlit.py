@@ -36,9 +36,9 @@ st.markdown("At Coffee Review, the evaluation (cupping) is conducted by a small,
 
 st.subheader("Try the Text-Based Model!")
 
-st.markdown("Part of this project involved creating a text-based model to predict a coffee’s rating. **The model was trained using only the text from the *Blind Assessment* portion of reviews posted before November 2022.**") 
+st.markdown("This project included creating a text-based model to predict a coffee’s rating. **The model was trained using only the text from the *Blind Assessment* portion of reviews posted before November 2022.**") 
 
-st.markdown("Give it a try! Pick a review from [CoffeeReview](https://www.coffeereview.com/). Click into the review to see the *Blind Assessment* text. Copy and paste it into the box below. **Any reviews posted November 2022 or later will be new to the model**. You can see how well it does by comparing the prediction to the actual rating.")
+st.markdown("Give it a try! Pick a review from [CoffeeReview](https://www.coffeereview.com/review/). Click into the review to see the *Blind Assessment* text. Copy and paste it into the box below. **Any reviews posted November 2022 or later will be new to the model**. You can see how well it does by comparing the prediction to the actual rating.")
 
 
 # Load the model using joblib
@@ -56,11 +56,12 @@ if review != '':
 else: 
     st.write('Enter text above to get the predicted score. You can compare it to the actual score on Coffee Review.')
 
+st.markdown("")
 
 # insert subheader
 st.subheader("How to Find the Review Information")
 
-st.markdown("Go to the [latest reviews](https://www.coffeereview.com/). Click the *Read Complete Review* button. Then copy and paste the narrative text under *Blind Assessment*")
+st.markdown("Go to the [latest reviews](https://www.coffeereview.com/review/). Click the *Read Complete Review* button. Then copy and paste the narrative text under *Blind Assessment*")
 
 # show where to click to see more of the review
 image1 = ('ReviewStep1.png')
@@ -70,4 +71,11 @@ st.image(image1)
 image2 = ('ReviewStep2.png')
 st.image(image2)
 
+st.markdown("")
+
+st.subheader("Contact Information")
+
+st.markdown("[Github](https://github.com/KMere21)")
+st.markdown("[Portfolio](https://github.com/KMere21)")
+st.markdown("[LinkedIn(https://www.linkedin.com/in/kate-m-meredith/)")
 
