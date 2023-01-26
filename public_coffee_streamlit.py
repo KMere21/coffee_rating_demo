@@ -42,9 +42,7 @@ st.subheader("Try the Text-Based Model!")
 
 st.markdown("This project included creating a text-based model to predict a coffee’s rating. The model was trained using only the text from the *Blind Assessment* portion of reviews posted before November 2022.") 
 
-st.markdown("**Give it a try!** Pick a review from [CoffeeReview](https://www.coffeereview.com/review/). Click into the review to see the *Blind Assessment* text. Copy and paste it into the box below. **Any reviews posted November 2022 or later will be new to the model**. You can see how well it does by comparing the prediction to the actual rating.")
-
-st.markdown("**Enter the review in the box below**")
+st.markdown("**Give it a try!** Pick a review from [CoffeeReview](https://www.coffeereview.com/review/). Click into the review to see the *Blind Assessment* text. **Copy and paste it into the box below. Any reviews posted November 2022 or later will be new to the model**. You can see how well it does by comparing the prediction to the actual rating.")
 
 # Load the model using joblib
 model = joblib.load('./public_rating_pipeline.pkl')
