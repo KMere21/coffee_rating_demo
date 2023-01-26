@@ -62,11 +62,11 @@ else:
 st.subheader("Screenshots for Navigating Reviews")
 
 # show where to click to see more of the review
-image1 = ('ReviewStep1.jpg')
+image1 = ('ReviewStep1.png')
 st.image(image1)
 
 # show what text to copy
-image2 = ('ReviewStep2.jpg')
+image2 = ('ReviewStep2.png')
 st.image(image2)
 
 
