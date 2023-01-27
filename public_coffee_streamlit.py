@@ -84,7 +84,7 @@ st.subheader("Connect with the Creator")
 
 st.markdown("This project was created by Kate Meredith. See more of my work on GitHub, check out my portfolio, or get in touch through LinkedIn.")
 
-st.markdown("[Github](https://github.com/KMere21)")
+st.markdown("[GitHub](https://github.com/KMere21)")
 st.markdown("[Portfolio](https://kmere21.github.io/)")
 st.markdown("[LinkedIn](https://www.linkedin.com/in/kate-m-meredith/)")
 
